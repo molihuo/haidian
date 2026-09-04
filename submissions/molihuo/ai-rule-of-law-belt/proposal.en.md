@@ -6,7 +6,7 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "For the 43.6 km² Centennial Jing-Zhang AI Innovation Belt, this proposal takes the «First City of AI Rule-of-Law Endeavor» as its first-tier positioning and signature concept, and puts forward the «Source / Test / Market / Forum» (法源·法测·法市·法坛) four-space typology, the «AI Rule-of-Law Endeavor Five-Dimensional Loop» methodology, the «Rule-of-Law Endeavor Index (ROL-AI Index)» measurement, and the «Rule-of-Law Endeavor Community» operating vehicle, forming a reviewable urban design package covering all agent.1-6 tasks."
+summary: "For the 43.6 km² Centennial Jing-Zhang AI Innovation Belt, this proposal takes the «First City of AI Rule-of-Law Endeavor» as its first-tier positioning and signature concept, and puts forward the «Source / Test / Market / Forum» (法源·法测·法市·法智) four-space typology, the «AI Rule-of-Law Endeavor Five-Dimensional Body» methodology, the «Rule-of-Law Endeavor Index (ROL-AI Index)» measurement, and the «Rule-of-Law Endeavor Community» operating vehicle, forming a reviewable urban design package covering all agent.1-6 tasks."
 tracks: ["ai-public-services", "civic-agent-governance", "ai-origin-community"]
 iteration: "v0.1"
 ---
@@ -17,7 +17,7 @@ iteration: "v0.1"
 
 This proposal takes the "Notice of Pre-qualification for the International Open Call of the Centennial Jing-Zhang AI Innovation Belt Urban Design" issued by the Haidian Branch of the Beijing Municipal Commission of Planning and Natural Resources as the top-level task basis [source:SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT], and uses the machine-readable foundation of provisional boundaries, enums, metrics and professional standards maintained in `brief/site-package/` [source:SRC-SITE-PACKAGE-2026]. Before generation the contributor must read `design_brief.json`, `allowed_design_space.json`, `agent_taskbook.json`, `enums/`, `ranges/`, `schemas/`, `data/source_registry.json` and `data/processed/agent_fact_pack.md`, and use `project_scope_summary.csv`, `source_use_matrix.csv` and `missing_data_checklist.csv` to build the task, scope, source-usage and gap lists [source:SRC-PROCESSED-FACT-PACK-2026]. The site package at submission time does not contain an official polygon, official redline, official regulatory planning or ownership file — this is a disclosed data gap and does not block content scoring, but means every spatial conclusion must be expressed as "concept suggestion / reference scheme / available for professional deepening" [source:SRC-PROVISIONAL-BOUNDARIES-2026] [depth:risk_missing_data].
 
-Across the six tasks (agent.1-6), this proposal takes "**the First City of AI Rule-of-Law Endeavor**" as its first-tier positioning and signature concept. The wording emphasises that AI rule-of-law is not scattered policy clauses or compliance actions, but a **long-term endeavour** that uses law to shape the order of the AI era for the common good, requiring coordinated construction of spatial carriers, institutional tools, talent teams and public discourse [source:SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]. "First City" means this proposal carries the endeavour at full-city scale, building a globally **pioneering, model-setting, enduring** urban interface for AI rule-of-law endeavour. The proposal accordingly raises five groups of original concepts: the «Source / Test / Market / Forum» (法源·法测·法市·法坛) four-space typology, the «AI Rule-of-Law Endeavor Five-Dimensional Loop» methodology, the «Rule-of-Law Endeavor Index (ROL-AI Index)» metric, the «Rule-of-Law Endeavor Community» operating vehicle and the «Three Landmarks of the Rule-of-Law Endeavor». The cited Chinese laws and initiatives (Data Security Law, PIPL, Interim Measures for Generative AI Services, Global AI Governance Initiative, etc.) are public legal background only and are not interpreted as local implementation conclusions [depth:risk_missing_data].
+Across the six tasks (agent.1-6), this proposal takes "**the First City of AI Rule-of-Law Endeavor**" as its first-tier positioning and signature concept. The wording emphasises that AI rule-of-law is not scattered policy clauses or compliance actions, but a **long-term endeavour** that uses law to shape the order of the AI era for the common good, requiring coordinated construction of spatial carriers, institutional tools, talent teams and public discourse [source:SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]. "First City" means this proposal carries the endeavour at full-city scale, building a globally **pioneering, model-setting, enduring** urban interface for AI rule-of-law endeavour. The proposal accordingly raises six groups of original concepts: the «Source / Test / Market / Forum» (法源·法测·法市·法智) four-space typology, the «AI Rule-of-Law Endeavor Five-Dimensional Body» methodology, the «Rule-of-Law Endeavor Index (ROL-AI Index)» metric, the «Rule-of-Law Endeavor Community» operating vehicle, the «Three Landmarks of the Rule-of-Law Endeavor» and the «One University · One Belt · One District · One City» multi-scale structure. The cited Chinese laws and initiatives (Data Security Law, PIPL, Interim Measures for Generative AI Services, Global AI Governance Initiative, etc.) are public legal background only and are not interpreted as local implementation conclusions [depth:risk_missing_data].
 
 ![Source evidence chain and overall concept map](assets/figures/site-overview.png)
 
@@ -39,18 +39,19 @@ The master concept is named «**Zhi-Li Belt, Rule-of-Law Jing-Zhang**». "Zhi-Li
 
 ### Original Concept 1: The «First City of AI Rule-of-Law Endeavor» as Master Concept and the «Source / Test / Market / Forum» Spatial Typology
 
-"AI Rule-of-Law Endeavor" is the master concept, landing as **four endeavour space types**:
+"AI Rule-of-Law Endeavor" is the master concept, landing as **four endeavour space types** plus one **university-scale origination anchor (CUPL Haidian Campus · First University)**:
 
 | Space type | Function | Anchors |
 | --- | --- | --- |
 | **Source (法源)** — cultural rule-of-law origination | Heritage, AI governance knowledge, talent education | AI Origin Community: AI Rule-of-Law Source Hall (法源馆), Rule-of-Law Talent Community, Open-Source Compliance Station |
 | **Test (法测)** — governance testing and standards | Algorithm filing, model testing, standards co-creation | Zhongzhiyuan: AI Safety Governance Sandbox, Standards Workshop, Model Red-Team Field |
 | **Market (法市)** — compliance services and factor market | Data compliance, legal-tech industry, factor circulation | Dazhongsi: Data-Element Compliance Port, Smart-Legal Building |
-| **Forum (法坛)** — dialogue and discourse | International dialogue, arbitration, honour exhibition | Belt axis: International Rule-of-Law Forum Hall, Algorithm Justice Ring |
+| **Rule-of-Law Intelligence (法智)** — AI-enabled rule-of-law dialogue and discourse | International dialogue, arbitration, honour exhibition | Belt axis: International Rule-of-Law Forum Hall, Algorithm Justice Ring |
+| **CUPL Haidian Campus (校-尺度策源锚点·第一校)** | Physical carrier of the "First University of AI Rule-of-Law Endeavor": a ≥40,000 m² on-campus "AI Rule-of-Law Endeavor Cluster" serves the university's "Law-Engineering Fusion" strategy, aggregating the Institute of AI Law and Governance, China University of Political Science and Law, the Beijing Municipal Key Laboratory of AI Ethics and Rule-of-Law Evaluation, the AI Rule-of-Law Education Base, the Institute of Data Rule-of-Law, Digital Supervision and the Cyber Law Institute, and projects the external label "AI Legal-Service Central-Procurement Hub"; linking Source and the Beijing Municipal Key Laboratory / MIIT AI Ethics Service Centre | 25 Xitucheng Road, Jimenqiao area, adjacent to the Jingzhang Belt; three-segment "campus-park-block" slow-traffic stitch into the Beijing AI Origin Community |
 
-### Original Concept 2: The «AI Rule-of-Law Endeavor Five-Dimensional Loop»
+### Original Concept 2: The «AI Rule-of-Law Endeavor Five-Dimensional Body»
 
-The five-dimensional loop "Legislative origination → Standards making → Compliance testing → Dispute resolution → International dialogue" is the methodological backbone of every AI rule-of-law scenario and operating mechanism: from rule supply (origination, standards) to rule execution (testing, dispute) to rule discourse (international). Each dimension is anchored by at least one spatial carrier and one scenario card (see the "AI Innovation Ecosystem, Personas and AI+ Scenarios" section).
+The five-dimensional body "Legislative origination → Standards making → Compliance testing → Dispute resolution → International dialogue" is the methodological backbone of every AI rule-of-law scenario and operating mechanism: from rule supply (origination, standards) to rule execution (testing, dispute) to rule discourse (international). Each dimension is anchored by at least one spatial carrier and one scenario card (see the "AI Innovation Ecosystem, Personas and AI+ Scenarios" section).
 
 ### Original Concept 3: The «Rule-of-Law Endeavor Index (ROL-AI Index)»
 
@@ -64,6 +65,35 @@ The "annual Global AI Rule-of-Law Forum + Developer Compliance Community + Three
 
 ① **AI Rule-of-Law Source Hall** (cultural landmark, AI Origin Community); ② **Algorithm Justice Ring** (honour landmark, belt axis); ③ **Data-Element Compliance Port** (industry landmark, Dazhongsi). They correspond to Source / Forum / Market respectively and constitute a visitable and operable public interface for AI rule-of-law (see the "Blue-Green Space, Public Space and City Character" section).
 
+### Original Concept 6: The «One University · One Belt · One District · One City» Multi-Scale Anchoring Structure
+
+To upgrade "AI Rule-of-Law Endeavor" from a single-site urban-design scheme into a city-scale strategic carrier that is progressively supported and amplified, this proposal builds, on top of the Source / Test / Market / Forum spatial typology, a four-tier anchoring structure from institution to city, all serving the construction of the "AI First City" [depth:risk_missing_data]:
+
+| Tier | Carrier | Positioning | Structure & role |
+| --- | --- | --- | --- |
+| University | CUPL Haidian Campus | First University of AI Rule-of-Law Endeavor | **Origination core (physical carrier: ≥40,000 m² on-campus "AI Rule-of-Law Endeavor Cluster")**: with the Institute of AI Law and Governance, China University of Political Science and Law at its heart, it aggregates the Beijing Municipal Key Laboratory of AI Ethics and Rule-of-Law Evaluation, the AI Rule-of-Law Education Base, the Institute of Data Rule-of-Law, Digital Supervision and the Cyber Law Institute, serves the "Law-Engineering Fusion" strategy, and projects the external label "AI Legal-Service Central-Procurement Hub" — the headwater of the whole endeavour |
+| Belt | Centennial Jing-Zhang AI Innovation Belt | First Belt of AI Rule-of-Law | **Practice belt**: the real landing of the four space types, turning the endeavour into a visitable, operable and measurable urban design |
+| District | Haidian District | First District of AI Rule-of-Law | **Hosting district**: the "Three Areas and Two Wings" world-class AI cluster provides administrative and industrial hosting — policy, land, computing and scenario foundations |
+| City | Beijing | First City of AI Rule-of-Law | **Benchmark city**: at city scale it integrates university-belt-district into a replicable, auditable, exportable urban paradigm of AI rule-of-law |
+
+The four nest and escalate: **from the First University as headwater, through the First Belt in practice, into the First District as host, to the First City as benchmark**, all serving the construction of the "AI First City" — turning global discourse power in AI governance into Beijing's city-scale competitiveness as an AI First City (see the cross-reference in "Naming System and Visual Identity").
+
+**Wording distinction (to be kept, not mixed)**: the Belt / District / City tiers uniformly use "AI Rule-of-Law 'First X'"; the University tier directly carries the master concept "AI Rule-of-Law Endeavor", hence "First University of AI Rule-of-Law Endeavor", sharing the same root as the proposal name "First City of AI Rule-of-Law Endeavor" (人工智能法治事业建设第一城); the ultimate goal "AI First City" is a modifier-stripped umbrella term meaning the overall city vision of an AI First City, and its presence does not replace or weaken the proposal name "First City of AI Rule-of-Law Endeavor" (see the Name Non-Negotiable Clause below).
+
+
+### First-University Physical Carrier: The AI Rule-of-Law Endeavor Cluster
+
+CUPL builds a ≥40,000 m² on-campus "AI Rule-of-Law Endeavor Cluster" as the physical carrier of the "First University", directly serving the university's "Law-Engineering Fusion" strategy. The cluster co-locates the following institutions to form a cross-disciplinary, cross-platform synergy:
+
+- **Institute of AI Law and Governance, China University of Political Science and Law** (cluster core, providing academic review, talent supply and cross-disciplinary origination);
+- **Beijing Municipal Key Laboratory of AI Ethics and Rule-of-Law Evaluation** (jointly with the Jing-Shu Group, providing ethics-evaluation and standards infrastructure);
+- **AI Rule-of-Law Education Base** (public and professional rule-of-law education and outreach interface);
+- **Institute of Data Rule-of-Law** (data fundamental institutions and data-element compliance research);
+- **Digital Supervision** (supervision rule-of-law and compliance oversight in the digital era);
+- **Cyber Law Institute** (network and platform governance, algorithm and content rule-of-law).
+
+Bound by the common thread of "rule-of-law endeavour", these institutions co-locate in space and coordinate in mechanism, forming a perceptible, operable "AI Rule-of-Law Endeavor Cluster" effect, and projecting the unified external label "AI Legal-Service Central-Procurement Hub" — integrating scattered AI rule-of-law research, evaluation, education and service supply into a one-stop central-procurement interface for government, enterprises and society. This cluster is the physical headwater from which the "First University" feeds academic, talent and evaluation capacity into the "First Belt" (see "Innovation Chain and Future Urban Form").
+
 ## Coordinated Research Scope: Industry and Future-City Study
 
 ### Naming System and Visual Identity
@@ -74,13 +104,19 @@ The proposal name follows a three-tier hierarchy, putting "the First City of AI 
 - **Tier 2 (Space/Brand)**: "**Zhi-Li Belt, Rule-of-Law Jing-Zhang**" — the belt's spatial brand name carrying the master concept into concrete form.
 - **Tier 3 (Full Title)**: "**Zhi-Li Belt, Rule-of-Law Jing-Zhang: Urban Design Proposal for the Centennial Jing-Zhang AI Innovation Belt as the First City of AI Rule-of-Law Endeavor**" — the official submission title.
 
+This proposal's "First City" is also the apex of a "One University · One Belt · One District · One City" multi-scale structure: CUPL becomes the First University of AI Rule-of-Law Endeavor, the Jing-Zhang Belt becomes the First Belt of AI Rule-of-Law, Haidian District becomes the First District of AI Rule-of-Law, and Beijing becomes the First City of AI Rule-of-Law — the four escalating to jointly serve the construction of the "AI First City" (structure logic in "Original Concept 6").
+
+#### Concept Origination: Providing the Rule-of-Law Foundation for the «Global AI First City»
+
+In January 2026, the Beijing AI Innovation Highland Construction Promotion Meeting set the goal of building a "Global AI First City". Based on China University of Political Science and Law's institutional positioning, disciplinary strengths and programme characteristics, this proposal puts forward «AI Rule-of-Law Endeavor» («the building of the AI rule-of-law endeavor») as an original and signature concept, elevating AI rule-of-law to the height of an endeavour banner and providing the rule-of-law foundation for the Global AI First City; it turns "AI Rule-of-Law Endeavor" from an abstract concept and vision into a perceivable, visitable, operable, measurable and enduring urban space, and at the same time upgrades the "Global AI First City" from industrial leadership to "industry + rule-of-law" dual leadership — a replicable, exportable paradigm of rule-of-law urban-space building.
+
 #### «First City» Narrative: A Twofold Purpose
 
 "The First City of AI Rule-of-Law Endeavor" is the visual punch of the proposal's narrative, carrying a twofold purpose:
 
 **One, raising the banner.** It puts forward "AI Rule-of-Law Endeavor" as a signature concept with great clarity: AI rule-of-law is not a pile of scattered clauses and compliance actions, but a long-term endeavour that uses law to shape the order of the AI era for the common good. It needs to be named, seen and continuously built. Therefore it raises the banner under the name "First City", giving the concept a city-scale carrier and a globally pioneering identity, and turning "AI governance global discourse" from an abstract function into a tangible endeavour flag.
 
-**Two, grounding as a city.** Using the Jingzhang urban belt as the carrier, it grounds AI rule-of-law endeavour in concrete city-building: the 43.6 km² Coordinated Research Scope answers "where does the endeavour grow", the 11.4 km² Overall Design Scope answers "how does the endeavour network", and the 368.4 ha three Key Areas answer "where does the endeavour land". The three Key Areas are exactly the real landing of the four endeavour-space types: Origin Community hosts cultural rule-of-law and talent origination, Zhongzhiyuan hosts governance testing and standards-making, Dazhongsi hosts compliance services and factor market, and the belt axis hosts international dialogue and honour exhibition. Combined with the Five-Dimensional Loop, the ROL-AI Index, the Rule-of-Law Endeavor Community and the Three Landmarks, "endeavour" becomes a city space that is visitable, operable, measurable and enduring.
+**Two, grounding as a city.** Using the Jingzhang urban belt as the carrier, it grounds AI rule-of-law endeavour in concrete city-building: the 43.6 km² Coordinated Research Scope answers "where does the endeavour grow", the 11.4 km² Overall Design Scope answers "how does the endeavour network", and the 368.4 ha three Key Areas answer "where does the endeavour land". The three Key Areas are exactly the real landing of the four endeavour-space types: Origin Community hosts cultural rule-of-law and talent origination, Zhongzhiyuan hosts governance testing and standards-making, Dazhongsi hosts compliance services and factor market, and the belt axis hosts international dialogue and honour exhibition. Combined with the Five-Dimensional Body, the ROL-AI Index, the Rule-of-Law Endeavor Community and the Three Landmarks, "endeavour" becomes a city space that is perceivable, visitable, operable, measurable and enduring.
 
 In one sentence: **under the name "First City" we raise the banner; along the Jingzhang belt we build the city.**
 
@@ -125,7 +161,7 @@ Public references [source:SRC-SITE-PACKAGE-2026], used as conceptual background 
 
 ### Innovation Chain and Future Urban Form
 
-Haidian has a complete AI innovation chain "universities originate → enterprises transform → public experience → international communication" [source:SRC-2026-BJ-KW-THREE-AREAS-WINGS] [source:SRC-2026-HAIDIAN-1X1]. This proposal uses the «AI Rule-of-Law Endeavor Five-Dimensional Loop» to organise the three-area + two-wing rule-of-law nodes:
+Haidian has a complete AI innovation chain "universities originate → enterprises transform → public experience → international communication" [source:SRC-2026-BJ-KW-THREE-AREAS-WINGS] [source:SRC-2026-HAIDIAN-1X1]. Within it, CUPL Haidian Campus acts as the First University of AI Rule-of-Law Endeavor and is the core anchor of the belt's academic origination and talent supply; it implements the "Law-Engineering Fusion" strategy through its ≥40,000 m² on-campus "AI Rule-of-Law Endeavor Cluster". This proposal uses the «AI Rule-of-Law Endeavor Five-Dimensional Body» to organise the three-area + two-wing rule-of-law nodes:
 
 - **Three Areas**: ① Zhongzhiyuan carries **Test** (AI Safety Governance Sandbox, Standards Workshop and Model Red-Team Field); ② AI Origin Community carries **Source** (AI Rule-of-Law Source Hall, Rule-of-Law Talent Community, Open-Source Compliance Station); ③ Dazhongsi carries **Market** (Data-Element Compliance Port, Smart-Legal Building).
 - **Two Wings**: ① Zhongguancun Technology Service Wing carries the AI rule-of-law public service platform and cross-border compliance services; ② Xiaoyuehe Scenario Enablement Wing carries the **Forum** community-side AI rule-of-law living scenarios and intelligent mediation.
@@ -172,11 +208,11 @@ The three key areas carry "Test / Source / Market" — the three landing forms o
 
 ### Zhongzhiyuan AI Innovation Acceleration Area (about 192.1 ha) · Test
 
-Positioned as "Garden-style Full-Stack Self-Reliant Block + AI Rule-of-Law Endeavor 'Test' Hub" [data:geometry/key_areas.geojson#PROV-KEY-001]. Spatial moves: ① reinforce the low-carbon innovation interface along the Qinghe waterfront; ② use green space to host the Algorithm Filing Review Sandbox, Model Red-Team Field and AI Safety Evaluation Centre; ③ organise the Standards Workshop, Safety Governance Exhibition and Open Testing Corridor; ④ coordinate external transport and city exhibition hall access. This area is the principal host for the "Standards making" and "Compliance testing" dimensions of the Five-Dimensional Loop.
+Positioned as "Garden-style Full-Stack Self-Reliant Block + AI Rule-of-Law Endeavor 'Test' Hub" [data:geometry/key_areas.geojson#PROV-KEY-001]. Spatial moves: ① reinforce the low-carbon innovation interface along the Qinghe waterfront; ② use green space to host the Algorithm Filing Review Sandbox, Model Red-Team Field and AI Safety Evaluation Centre; ③ organise the Standards Workshop, Safety Governance Exhibition and Open Testing Corridor; ④ coordinate external transport and city exhibition hall access. This area is the principal host for the "Standards making" and "Compliance testing" dimensions of the Five-Dimensional Body.
 
 ### Beijing AI Origin Community (about 104.3 ha) · Source
 
-Positioned as "Campus-Adjacent Outcome-Conversion Block + AI Rule-of-Law Endeavor 'Source' Origin" [data:geometry/key_areas.geojson#PROV-KEY-002]. Spatial moves: ① stitch campus-park-block slow-traffic; ② build the AI Rule-of-Law Source Hall as the cultural landmark; ③ Rule-of-Law Talent Community, Open-Source Compliance Station, Campus-Adjacent Outcome-Conversion Street; ④ complete outcome release, talent residence and cross-border compliance education. This area is the principal host for "Legislative origination" and "Talent supply".
+Positioned as "Campus-Adjacent Outcome-Conversion Block + AI Rule-of-Law Endeavor 'Source' Origin" [data:geometry/key_areas.geojson#PROV-KEY-002]. Its academic anchor is CUPL Haidian Campus (25 Xitucheng Road, Jimenqiao area, adjacent to the Jingzhang Belt) — the First University of AI Rule-of-Law Endeavor in this proposal's "One University · One Belt · One District · One City" structure; the Institute of AI Law and Governance, China University of Political Science and Law, provides the curatorial and academic-review base for the Source Hall and the "law + smart-law" talent supply for the Rule-of-Law Talent Community. The campus implements the "Law-Engineering Fusion" strategy through its ≥40,000 m² on-campus "AI Rule-of-Law Endeavor Cluster". Spatial moves: ① stitch campus-park-block slow-traffic; ② build the AI Rule-of-Law Source Hall as the cultural landmark; ③ Rule-of-Law Talent Community, Open-Source Compliance Station, Campus-Adjacent Outcome-Conversion Street; ④ complete outcome release, talent residence and cross-border compliance education. This area is the principal host for "Legislative origination" and "Talent supply".
 
 ### Dazhongsi AI Industry Cluster (about 72.0 ha) · Market
 
@@ -212,7 +248,7 @@ Residents and communities are co-deciders of planning and operation, not just se
 - **Inclusion metrics**: ① 100% barrier-free coverage of the slow-traffic system; ② Braille, multilingual and sign-language terminals in wayfinding; ③ digital-exclusion service windows not less than 30% of all service points; ④ co-creation adoption rate and grievance closure rate included in the annual ROL-AI Index.
 - **Co-creation output**: council recommendations enter the iteration list of the Public-Space Component Library and Cultural Wayfinding System, forming a "suggest → adopt → implement → publicise" loop [depth:risk_missing_data].
 
-### AI Rule-of-Law Scenario Cards (12, organised by the Five-Dimensional Loop)
+### AI Rule-of-Law Scenario Cards (12, organised by the Five-Dimensional Body)
 
 **Legislative origination**: S08 AI Rule-of-Law Source Hall (cultural landmark + legal history + AI governance history); S09 Open-Source Compliance Station (licence consultancy + compliance audit).
 **Standards making**: S02 AI Standards Workshop (industry-group standards + evaluation tool co-creation).
@@ -236,7 +272,7 @@ The "AI Rule-of-Law Endeavor" requires coordinated supply of eight factors (all 
 | Talent | Rule-of-Law Talent Community + university joint training + international recruitment | Origin Community + regional synergy (Beiwei) |
 | Computing | Edge Computing Stations + Huairou Science City computing channel | New infrastructure JZ-05 + regional synergy |
 | Data | Compliance Port registration + evaluation + cross-border circulation loop | Dazhongsi Port + S05/S11 |
-| Scenario | 12 scenario cards organised by the Five-Dimensional Loop, each with space/data/operator/review | Scenario technical elements table |
+| Scenario | 12 scenario cards organised by the Five-Dimensional Body, each with space/data/operator/review | Scenario technical elements table |
 
 The eight factors are calibrated annually by the ROL-AI Index, forming a "supply-operate-monitor-adjust" loop [depth:metrics_recalculation].
 

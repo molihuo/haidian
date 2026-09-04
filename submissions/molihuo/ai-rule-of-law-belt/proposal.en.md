@@ -19,7 +19,7 @@ This proposal takes the "Notice of Pre-qualification for the International Open 
 
 Across the six tasks (agent.1-6), this proposal takes "**the First City of AI Rule-of-Law Endeavor**" as its first-tier positioning and signature concept. The wording emphasises that AI rule-of-law is not scattered policy clauses or compliance actions, but a **long-term endeavour** that uses law to shape the order of the AI era for the common good, requiring coordinated construction of spatial carriers, institutional tools, talent teams and public discourse [source:SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]. "First City" means this proposal carries the endeavour at full-city scale, building a globally **pioneering, model-setting, enduring** urban interface for AI rule-of-law endeavour. The proposal accordingly raises six groups of original concepts: the «Source / Test / Market / Forum» (法源·法测·法市·法智) four-space typology, the «AI Rule-of-Law Endeavor Five-Dimensional Body» methodology, the «Rule-of-Law Endeavor Index (ROL-AI Index)» metric, the «Rule-of-Law Endeavor Community» operating vehicle, the «Three Landmarks of the Rule-of-Law Endeavor» and the «One University · One Belt · One District · One City» multi-scale structure. The cited Chinese laws and initiatives (Data Security Law, PIPL, Interim Measures for Generative AI Services, Global AI Governance Initiative, etc.) are public legal background only and are not interpreted as local implementation conclusions [depth:risk_missing_data].
 
-![Source evidence chain and overall concept map](assets/figures/site-overview.png)
+![Source evidence chain and overall concept map](assets/figures/site-overview.en.png)
 
 ## Three-Tier Scope Framework
 
@@ -126,7 +126,7 @@ English mapping: Tier 1 **First City of AI Rule-of-Law Endeavor** (master), Tier
 
 **Regardless of any future iteration or revision, the proposal name must retain the full expression "人工智能法治事业建设第一城" (First City of AI Rule-of-Law Endeavor) — it may not be deleted, abbreviated, substituted or weakened.** Concretely: the official full title (Tier 3) is fixed as "Zhi-Li Belt, Rule-of-Law Jing-Zhang: Urban Design Proposal for the Centennial Jing-Zhang AI Innovation Belt as the First City of AI Rule-of-Law Endeavor"; any version (frontmatter, body heading, visualisation, figures, PDF, PR title, external materials) that cites the proposal name must include the complete expression. "AI Rule-of-Law First City" may be used only as an abbreviation and must be accompanied by the full title at first mention.
 
-![Proposal logo (direction indication)](assets/figures/logo.png)
+![Proposal logo (direction indication)](assets/figures/logo.en.png)
 
 Logo visual motif (direction indication only): "scales + rail" as the core — the upper crossbar borrows from rail-tie imagery, the lower part is a stylised justice-symbol, the three key areas embed as three coloured nodes (Source / Test / Market), and the central "Forum" axis is wrapped by a gold ring. No corporate, trademark, font or portrait elements are used [depth:risk_missing_data].
 
@@ -198,11 +198,11 @@ Main composition (provisional-boundary share): parks + protective green space �
 
 `geometry/roads.geojson` includes 5 main road centre-lines (north-south slow-traffic axis + three transverse arterials + side arterials). `constraints.geojson` labels the Jingzhang Heritage Park rail-line (indicative) as the backbone of the park and the slow-traffic axis. **Rail stations, rail alignment, road redlines, municipal pipelines, fire safety and energy** are currently indicative and must be marked as to-be-confirmed where regulatory conditions are absent [depth:traffic_rail_slow_parking] [depth:municipal_new_infrastructure].
 
-![Land-use structure and industry layout](assets/figures/land-use-structure.png)
+![Land-use structure and industry layout](assets/figures/land-use-structure.en.png)
 
 ## Key Areas Detailed Design
 
-![Key-area concept plan](assets/figures/key-area-concept.png)
+![Key-area concept plan](assets/figures/key-area-concept.en.png)
 
 The three key areas carry "Test / Source / Market" — the three landing forms of the master concept in space. This proposal expresses them at **concept-suggestion and reference-scheme depth**, for professional teams to deepen to integrated-implementation depth once official boundaries and engineering conditions are available [depth:three_key_area_detailed_design]:
 
@@ -218,7 +218,7 @@ Positioned as "Campus-Adjacent Outcome-Conversion Block + AI Rule-of-Law Endeavo
 
 Positioned as "Urban Smart-Economy + Rule-of-Law Endeavor 'Market' Block" [data:geometry/key_areas.geojson#PROV-KEY-003]. Spatial moves: ① Dazhongsi Station integration and four-quadrant pedestrian connectivity; ② Data-Element Compliance Port, Smart-Legal Building, International Rule-of-Law Forum Hall; ③ Algorithm Justice Ring as the AI rule-of-law honour landmark; ④ renewal of public environment around key enterprises and complex commercial services. This area is the integrated host for "Compliance execution", "Dispute resolution" and "International dialogue".
 
-![Three key areas index](assets/figures/key-areas.png)
+![Three key areas index](assets/figures/key-areas.en.png)
 
 ## AI Innovation Ecosystem, Personas and AI+ Scenarios
 
@@ -318,9 +318,9 @@ Land-use classification entirely follows the territorial-space codes (1401 park 
 
 `geometry/roads.geojson` expresses the slow-traffic axis + primary/secondary arterials + east-west cross streets; `constraints.geojson` labels the Jingzhang Heritage rail-line, eastern expressway and Qinghe water system. Public-space nodes in `geometry/public_space.geojson` include plaza land and the three key-area public sitting rooms [data:geometry/public_space.geojson#PUBLIC-001]. **Pipelines, fire, energy, computing, 5G/6G** are all marked as formal deepening prerequisites where official conditions are absent [depth:municipal_new_infrastructure].
 
-![Transport slow-traffic and blue-green public space](assets/figures/mobility-bluegreen.png)
+![Transport slow-traffic and blue-green public space](assets/figures/mobility-bluegreen.en.png)
 
-![Cross-section concept along the belt axis (Source → Forum → Market)](assets/figures/section-profile.png)
+![Cross-section concept along the belt axis (Source → Forum → Market)](assets/figures/section-profile.en.png)
 
 ## Blue-Green Space, Public Space and City Character
 
@@ -405,7 +405,7 @@ Core metrics can be recomputed from the submitted geometry and the Notice (EPSG:
 | ROL-AI Index | unknown (concept framework) | 5 first-tier dimensions | proposal.md §Three-Tier Scope |
 | FAR / height / density / setback | unknown | — | Regulatory gap |
 
-![Core metric recalculation and evidence chain](assets/figures/metrics-evidence.png)
+![Core metric recalculation and evidence chain](assets/figures/metrics-evidence.en.png)
 
 The compliance matrix covers all sub-clauses of Notice 1.3 / 1.4 / 1.5 and all agent.1-6 tasks (see `compliance_matrix.json`).
 

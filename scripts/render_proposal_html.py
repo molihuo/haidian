@@ -3,8 +3,9 @@
 
 This script converts ``proposal.md`` (and its bilingual counterpart when
 present) into self-contained offline HTML at ``report/proposal.html``.  The
-output must not load any remote resources; all figures are embedded as
-``../assets/figures/`` relative paths.
+output must not load any remote resources; figures keep their deterministic
+``../assets/figures/`` ``src`` and additionally inline the same bytes as a
+base64 ``onerror`` fallback so they display from any directory depth.
 
 When the proposal declares a ``translation_file`` in its front matter, the
 corresponding HTML translation is written alongside the primary report and each
@@ -44,6 +45,7 @@ Supported Markdown features
 from __future__ import annotations
 
 import argparse
+import base64
 import html
 import os
 import re
@@ -143,6 +145,27 @@ def normalize_image_src(submission_dir: Path, raw_src: str) -> str:
     """
     _, relative = resolve_local_image(submission_dir, raw_src)
     return "../" + relative.as_posix()
+
+
+def image_fallback_attr(submission_dir: Path, raw_src: str) -> str:
+    """Build an ``onerror`` attribute inlining the image as base64.
+
+    The rendered ``<img>`` keeps its deterministic ``../assets/figures/``
+    ``src`` (required by deterministic validation and used directly by the
+    repository page).  When the HTML is opened from a context that breaks the
+    directory layout - e.g. a flat preview server or a copied file - the
+    failed load triggers the fallback and the same bytes render from an
+    inline ``data:`` URI, so figures display everywhere without scripts.
+    """
+    image_path, _ = resolve_local_image(submission_dir, raw_src)
+    media = "image/png" if image_path.suffix.lower() == ".png" else "image/jpeg"
+    payload = base64.b64encode(image_path.read_bytes()).decode("ascii")
+    data_uri = f"data:{media};base64,{payload}"
+    return (
+        "onerror=\"this.onerror=null;this.src='"
+        + data_uri.replace("'", "&#39;")
+        + "';\""
+    )
 
 
 def contained_output_path(submission_dir: Path, raw_path: str) -> Path:
@@ -429,10 +452,12 @@ def render_markdown_body(submission_dir: Path, markdown: str, language: str = "z
             flush_paragraph()
             close_list()
             alt = html.escape(image_match.group(1).strip() or "proposal figure")
-            src = normalize_image_src(submission_dir, image_match.group(2).strip())
+            raw_src = image_match.group(2).strip()
+            src = normalize_image_src(submission_dir, raw_src)
+            fallback = image_fallback_attr(submission_dir, raw_src)
             blocks.append(
                 '<figure class="proposal-figure">'
-                f'<img src="{html.escape(src)}" alt="{alt}">'
+                f'<img src="{html.escape(src)}" alt="{alt}" {fallback}>'
                 f"<figcaption>{alt}</figcaption>"
                 "</figure>"
             )
